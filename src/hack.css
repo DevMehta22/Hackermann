@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./hack.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    background-attachment:fixed;
+}
+.main{
+    color: green;
+    margin: 50px;
+    text-transform: uppercase; 
+    text-align: center;
+    position:sticky;   
+}
+input{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+    color: green;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px green;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: medium;
+
+}
+#id1{
+    padding:9px;
+    margin: 15px;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.8);
+    color: green;
+    box-shadow: 0px 0px 7px yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+#display{
+    color: greenyellow;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    margin-left: 15%;        
+}
+p{
+    padding: 0px;
+}
+pre{
+    font-family:'Courier New', Courier, monospace;
+}
+#final{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: black;
+    
+}
